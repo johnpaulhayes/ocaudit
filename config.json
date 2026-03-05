@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "targets": {
+    "AGENTS.md": {
+      "ideal": 8000,
+      "warn": 15000,
+      "critical": 20000
+    },
+    "SOUL.md": {
+      "ideal": 3000,
+      "warn": 5000,
+      "critical": 10000
+    },
+    "HEARTBEAT.md": {
+      "ideal": 1500,
+      "warn": 2000,
+      "critical": 5000
+    },
+    "USER.md": {
+      "ideal": 1000,
+      "warn": 2000,
+      "critical": 5000
+    },
+    "IDENTITY.md": {
+      "ideal": 500,
+      "warn": 1000,
+      "critical": 3000
+    },
+    "TOOLS.md": {
+      "ideal": 5000,
+      "warn": 10000,
+      "critical": 20000
+    },
+    "MEMORY.md": {
+      "ideal": 8000,
+      "warn": 15000,
+      "critical": 20000
+    }
+  },
+  "truncationLimit": 20000,
+  "secretPatterns": [
+    "password",
+    "api[_-]?key",
+    "token",
+    "secret",
+    "credential",
+    "bearer",
+    "private[_-]?key",
+    "auth",
+    "jwt"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    ".git",
+    "*.log",
+    "*.tmp"
+  ],
+  "scoring": {
+    "weights": {
+      "contextEfficiency": 25,
+      "redundancy": 20,
+      "operationalClarity": 20,
+      "security": 15,
+      "freshness": 10,
+      "completeness": 10
+    }
+  }
+}
