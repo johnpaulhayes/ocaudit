@@ -374,4 +374,13 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
+## Support ocaudit
+
+If ocaudit saved you tokens (and sanity), consider buying me a coffee:
+
+Support ocaudit [https://buy.stripe.com/bJe28t2Xf26631T27Qco000]
+
+ocaudit is free and open source. Tips help fund continued development and new features.
+
+
 **Remember:** Your workspace files are injected into every session. An hour spent optimizing can save thousands of tokens per day. 🚀
